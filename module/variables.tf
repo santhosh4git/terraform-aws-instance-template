@@ -1,9 +1,6 @@
-variable "rhel_version" {
-    default="8"
-}
 variable "region" {}
+variable "ami_id"{}
 variable "instance_type" {}
-variable "myprofile"{}
 variable "tag" {
 default="Testing"
 }
